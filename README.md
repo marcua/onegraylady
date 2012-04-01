@@ -4,4 +4,4 @@ OneGreyLady is a greasemonkey script that puts any New York Times
 This is a shoutout to my favorite newspaper of record.  I'd be lost
 without you.
 
-To install the script, [click here](https://github.com/marcua/onegreylady/raw/master/onegreylady.user.js)
+To install the script, [click here](https://github.com/marcua/onegreylady/raw/master/onegreylady.user.js).
