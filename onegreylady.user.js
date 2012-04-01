@@ -2,13 +2,13 @@
 // @name                OneGreyLady
 // @namespace	        http://marcua.net
 // @description	        Convert New York Times articles that are not single page into ones that are
-// @include		http://nytimes.com/*
-// @include		http://www.nytimes.com/*
+// @include		http*://nytimes.com/*
+// @include		http*://www.nytimes.com/*
 // ==/UserScript==
 
 // Testing reveals I don't have to sanitize the URLs.  If you find any
 // URLs that this breaks, let me know.
-if (window.location.search.indexOf("pagewanted=") == -1) {
+if (window.location.pathname.length > 1 && window.location.search.indexOf("pagewanted=") == -1) {
     var hashParts = window.location.href.split("#");
     var searchParts = hashParts[0].split("?");
 
