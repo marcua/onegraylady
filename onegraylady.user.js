@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name                OneGreyLady
+// @name                OneGrayLady
 // @namespace	        http://marcua.net
 // @description	        Convert New York Times articles that are not single page into ones that are
 // @include		http*://nytimes.com/*
