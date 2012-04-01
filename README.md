@@ -7,4 +7,4 @@ without you.
 To install the script, [click here](https://github.com/marcua/onegreylady/raw/master/onegreylady.user.js).
 
 I've only tested this in Google Chrome.  Send smoke signals if things
-don't work for oyu.
+don't work for you.
